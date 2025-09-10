@@ -10,12 +10,29 @@
 <body>
     <main>
         <div id="PanelTop"></div>
-        <div id="PanelBody"></div>
+        <div id="PanelBody">
+            <div id="Options">
+                <form>
+                    <p>
+                        Hazard multiplier<br>
+                        <select name="Hazardplier">
+                            <option>DEFAULT</option>
+                            <option>HAZARD 1</option>
+                            <option>HAZARD 2</option>
+                            <option>HAZARD 3</option>
+                            <option>HAZARD 4</option>
+                            <option>HAZARD 5</option>
+                        </select>    
+                    </p>     
+                </form>
+            </div>
+            <div id="Information"></div>
+        </div>
     </main>
 </body>
 </html>
 <?php
-//Fetches data from the server
-require './ServerLink.php';
+    //Fetches data from the server
+    require './ServerLink.php';
 
 ?>
